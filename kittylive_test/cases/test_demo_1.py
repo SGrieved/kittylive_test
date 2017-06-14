@@ -1,9 +1,25 @@
 __author__ = 'lisong'
+from django.conf import settings
+settings.configure()
 import requests
 import json
+from rest_framework.test import APITestCase
 import sys
 import unittest
-from kittylive_test.utils import common_check
+#from kittylive_test.utils import common_check
+
+
+#class CheckVersionCase(APITestCase):
+#    '''
+#    kittyLive
+#    update:check version
+#    '''
+
+#    def setUp(self):
+
+
+
+
 class login_check_version(unittest.TestCase):
     def test_login_check_version(self):
         post_data = {'platform':'2','version_code':'9'}
@@ -28,9 +44,11 @@ class login_check_version(unittest.TestCase):
         for values in res.values():
             print(values)
             self.assertNotEqual(values,u"")
-#if __name__ == "__main__":
-#     self=''
-#     login_check_version(self)
-#if __name__ == "__main__":
-#     self=''
-#     login_check_version(self)
+
+
+    def test_o2(self):
+        a=3
+        self.assertEqual(a,3)
+
+if __name__ == '__main__':
+    unittest.main()
