@@ -1,12 +1,13 @@
 __author__ = 'lisong'
 # coding:utf-8
 import unittest
+from kittylive_test.utils import tools
 
 
 def all_case():
     # 待执行用例的目录
-    case_dir = "/home/lisong/work/kittylive_test/kittylive_test/cases"
-
+    case_dir = tools.absolute_path()
+    print(case_dir)
 
     testcase = unittest.TestSuite()
     discover = unittest.defaultTestLoader.discover(case_dir,
