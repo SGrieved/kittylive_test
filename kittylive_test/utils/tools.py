@@ -11,7 +11,7 @@ sys.path.append(PROJ_ROOT)
 
 import os
 
-# 本文件存放一些针对乐影的公共方法
+# 本文件存放一些针对kittylive的公共方法
 
 def absolute_path():
     '''
