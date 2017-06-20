@@ -1,9 +1,6 @@
 
 __author__ = 'lisong'
-from django.conf import settings
-settings.configure()
 import requests
-import json
 import unittest
 from kittylive_test.utils import common_check
 
