@@ -80,15 +80,25 @@ def common_check_dict(self, back_dict, exceptkeys, reverse=True, remove_key=[],t
             self.assertIsInstance(back_dict[info], typedict[info])
 
 
-def common_check_list(self, back_list, reverse=True):
+def common_check_list(self, back_list, reverse=True,number=[]):
     ''' 检查list类型的,values不为空，返回列表遍历后的值 '''
     self.assertIsInstance(back_list, list)
     '''遍历值且检查值不为空'''
     if reverse:
+
+        for i,k in enumerate(number):
+            print(i)
+            if k==number[0]:
+                print(k)
+                del back_list[k]
+            else:
+                k=k-i
+                print(k)
+                del back_list[k]
+
         for values in back_list:
             self.assertNotEqual(values, u'')
 
-    else:
         for values in back_list:
             if values is '[]':
                 return '[]'
