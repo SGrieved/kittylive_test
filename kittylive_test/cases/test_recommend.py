@@ -6,8 +6,15 @@ import requests
 class UserRecommand(unittest.TestCase):
 
     def test_userrecommand(self):
+        file_object = open('session.txt','r')
+        try:
+            text = file_object.read()
+        finally:
+            file_object.close()
+        print text
+
         params = {'page':1,'size':20}
-        headers = {'Conten-Type':'application/json;charset=UTF-8','cookie':'session=1051460.qc6vGzNXQf_aiCdW'}
+        headers = {'Conten-Type':'application/json;charset=UTF-8','cookie':text}
         url = "http://testapi.kitty.live/v1/recommand/hot"
         r = requests.get(url,params=params,headers=headers)
 
