@@ -5,7 +5,7 @@ import unittest
 
 def all_case():
     # 待执行用例的目录
-    case_dir = "/home/lisong/kittylive_test/kittylive_test/cases"
+    case_dir = "/home/lisong/work/kittylive_test/kittylive_test/cases"
 
 
     testcase = unittest.TestSuite()
