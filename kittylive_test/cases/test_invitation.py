@@ -31,18 +31,26 @@ class MyTestCase(unittest.TestCase):
         #self.assertEqual(True, False)
 
     def test_invitation2(self):
-        params = {'invitation_id': ''}
-        headers = {'Conten-Type': 'application/json;charset=UTF-8', 'cookie': 'session=1051460.qc6vGzNXQf_aiCdW'}
+        with open('session.txt','r') as f:
+            text = (f.read())
+        headers = {'Conten-Type': 'application/json;charset=UTF-8', 'cookie': text}
         url = "http://testapi.kitty.live/v1/account/share_user"
-        r = requests.get(url,params=params,headers=headers)
+        r = requests.get(url,headers=headers)
         print "****result****"
         print (r.status_code, type(r.status_code))
-        self.assertNotEqual(r.status_code, 200)
+        self.assertEquals(r.status_code, 200)
+        res = json.loads(r.content)
+        print res.keys
+        values = '12001'
+        for values in res.values():
+            print values
         print "done  test2!!!!"
 
     def test_invitation3(self):
+        with open('session.txt','r') as f:
+            text = (f.read())
         params = {'invitation_id': '2.0'}
-        headers = {'Conten-Type': 'application/json;charset=UTF-8', 'cookie': 'session=1051460.qc6vGzNXQf_aiCdW'}
+        headers = {'Conten-Type': 'application/json;charset=UTF-8', 'cookie': text}
         url = "http://testapi.kitty.live/v1/account/share_user"
         r = requests.get(url, params=params, headers=headers)
         print "****result****"
@@ -51,8 +59,10 @@ class MyTestCase(unittest.TestCase):
         print "done test3!!!!"
 
     def test_invitation4(self):
+        with open('session.txt','r') as f:
+            text = (f.read())
         params = {'invitation_id': 'd'}
-        headers = {'Conten-Type': 'application/json;charset=UTF-8', 'cookie': 'session=1051460.qc6vGzNXQf_aiCdW'}
+        headers = {'Conten-Type': 'application/json;charset=UTF-8',  'cookie': text}
         url = "http://testapi.kitty.live/v1/account/share_user"
         r = requests.get(url, params=params, headers=headers)
         print "****result****"
