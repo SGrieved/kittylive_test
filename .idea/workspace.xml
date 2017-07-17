@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbe0485-b402-4416-ac8f-162a9df6399a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kittylive_test.iml" afterPath="$PROJECT_DIR$/.idea/kittylive_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/session.txt" afterPath="$PROJECT_DIR$/kittylive_test/cases/session.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_Live_category.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_Live_category.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_bind_phone.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_bind_phone.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_demo_1.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_demo_1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_following_recommand.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_following_recommand.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_get_cookie.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_get_cookie.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_invitation.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_invitation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_invite_web_login.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_invite_web_login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_invitor.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_invitor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_recommend.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_recommend.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kittylive_test/cases/test_sms_send.py" afterPath="$PROJECT_DIR$/kittylive_test/cases/test_sms_send.py" />
     </list>
     <ignored path="kittylive_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,12 +25,12 @@
     <favorites_list name="kittylive_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test_google.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kittylive_test/cases/test_google.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="29" />
+              <caret line="9" column="29" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -53,8 +39,8 @@
       <file leaf-file-name="test_Live_category.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kittylive_test/cases/test_Live_category.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="301">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="e#23#39#0" expanded="true" />
               </folding>
@@ -95,10 +81,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="343" />
-    <option name="y" value="50" />
-    <option name="width" value="1257" />
-    <option name="height" value="906" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -529,6 +515,14 @@
       <option name="presentableId" value="Default" />
       <updated>1497947782382</updated>
     </task>
+    <task id="LOCAL-00001" summary="guard">
+      <created>1500295497976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500295497976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -549,19 +543,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="343" y="50" width="1257" height="906" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2747784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27447918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41708544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41708544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -607,6 +602,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="guard" />
+    <option name="LAST_COMMIT_MESSAGE" value="guard" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -614,6 +613,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/kittylive_test/cases/test_google.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kittylive_test/cases/test_Live_category.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kittylive_test/cases/run_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -734,15 +751,15 @@
     <entry file="file://$PROJECT_DIR$/kittylive_test/cases/test_google.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="29" />
+          <caret line="9" column="29" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kittylive_test/cases/test_Live_category.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="301">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="e#23#39#0" expanded="true" />
           </folding>
